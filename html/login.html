@@ -7,13 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../css/login.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-
   </head>
   <body>
     <div class="loginForm">
       <form action="/html/index.html">
         <div>
-          <img src="/images/user.jpg" alt="user">
+          <img src="/images/user.jpg" alt="user" />
           <h1>Login</h1>
           <label for="Email"></label>
           <input
@@ -22,7 +21,10 @@
             name="email"
             placeholder="Email"
             style="text-align: center"
-          />
+            pattern="[A-Za-zd\.]{6-40}"
+            title="User name must be Username must be 6-40 and contain only letters numbers periods (.)"
+            required 
+          >
           <label for="Password"></label>
           <input
             type="Password"
@@ -34,7 +36,6 @@
           <button id="b">Login</button>
           <button id="b"><a href="/html/registry.html">Register</a></button>
         </div>
-        
       </form>
     </div>
   </body>

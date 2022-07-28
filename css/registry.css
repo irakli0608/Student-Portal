@@ -20,6 +20,7 @@ input {
   margin-top: 20px;
 }
 h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 60px;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px pink;
@@ -74,7 +75,7 @@ img {
 }
 
 body {
-  background-image: url(/images/mountains.png);
+  background-image: url(/images/register.jpg);
   background-size: cover;
   opacity: 0.9;
 }
