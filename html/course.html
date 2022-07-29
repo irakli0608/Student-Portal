@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/course.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Course</title>
 </head>
 <body>
@@ -19,70 +20,40 @@
     </header>
     <main>
       <h1 id="mainh1">Student Courses</h1>
-    <label for="membership" id="select">Courses:</label>
-<select name="membership" id="membership">
-  <option value="English">English</option>
-  <option value="bronze">Math</option>
-  <option value="Biology">Biology</option>
-  <option value="Chemistry">Chemistry</option>
-</select>
+      <label for="courses">Courses:</label>
+      <select name= "course" id="selectCourse">
+        <option>Choose a course</option>
+    </select>
     </main>
    <section class="adviser"> 
       <h1>Advisers</h1>
-      <table class="table" id="table" border="3px" align="center">
-        <style>
-          .table {
-            margin-top: 15px;
-            margin-left: 15px;
-            color:#fff;
-            border-radius: 12px;
-            border-color:#00986f;
-          }
-        </style>
-        <thead>
-          <tr>
-            <th>Semester</th>
-            <th>Start</th>
-            <th>End</th>
-          </tr>
-         </thead>
-         <tbody>
-           <tr>
-             <td>Fall</td>
-             <td>09.01</td>
-             <td>12.22</td>
-           </tr>
-           <tr>
-             <td>Winter</td>
-             <td>01.12</td>
-             <td>03.01</td>
-           </tr>
-           <tr>
-             <td>Spring</td>
-             <td>03.16</td>
-             <td>07.13</td>
-           </tr>
-           <tr>
-           </tr>
-        </tbody>
-      </table>
+      <button id="btn">Hours</button>
+      <ul id="list">
+        <li>Monday-Friday: 8-9</li>
+        <li> Saturday: 12 - 4</li>
+        <li id="sunday">Sunday: Closed</li>
+      </ul>
     </section>
-    <section id="library">Library</section>
+    <section id="library">
+      <h1 id="liberaryh1">Library</h1>
+      <p>Hours 24/7</p>
+    </section>
     <div class="description">
       <h1>Course Description</h1>
 
     </div>
     <footer>
       <div class="socials">
-        <p id="footerP">
-          Copyright &copy; 2020-2022 autoShop, inc. - All rights reserved.
-        </p>
-        <strong>Follow us on: </strong>
-        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-        <a href="https://www.twitter.com" class="fa fa-twitter"></a>
-        <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
-      </div>
+      <p id="footerP">
+        Copyright &copy; 2020-2022 autoShop, inc. - All rights reserved.
+      </p>
+      <strong>Follow us on: </strong>
+        <span class="span"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></span>
+        <span class="span"><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></span>
+        <span class="span"><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></span>
+        <span class="span"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></span>
     </footer>
   </div>
+  <script src="/js/course.js"></script>
 </body>
 </html>
