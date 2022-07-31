@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/student.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Student</title>
-    <link rel="stylesheet" href="/css/student.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header class="header">header</header>
-      <aside class="aside">navbar</aside>
-      <main class="main">sidebar</main>
-      <footer class="footer">footer</footer>
+</head>
+<body>
+  <div class="grid-container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/html/index.html">Main Page</a></li>
+          <li><a href="/html/course.html">Course</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 id="mainh1">Student</h1>
+    </main>
+   <section class="assigment"> 
+      <h1>Assigments</h1>
+      <button id="btn">To Do List</button>
+      <ul id="list">
+        <li> English</li>
+        <li> Math</li>
+        <li> Chemistry</li>
+        <li> Biology</li>
+      </ul>
+    </section>
+    <section id="library">
+      <h1 id="liberaryh1"></h1>
+    </section>
+    <div class="news">
+      <h1>News</h1>
+
     </div>
-    <script src="/js/student.js"></script>
-  </body>
+    <footer>
+      <div class="socials">
+      <p id="footerP">
+        Copyright &copy; 2020-2022 autoShop, inc. - All rights reserved.
+      </p>
+      <strong>Follow us on: </strong>
+        <span class="span"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></span>
+        <span class="span"><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></span>
+        <span class="span"><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></span>
+        <span class="span"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></span>
+    </footer>
+  </div>
+  <script src="/js/student.js"></script>
+</body>
 </html>

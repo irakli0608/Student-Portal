@@ -1,6 +1,6 @@
-var btn = document.getElementById("btn");
-var light = document.getElementById("light");
-var question = document.getElementById("questions");
+let btn = document.getElementById("btn");
+let light = document.getElementById("light");
+let question = document.getElementById("questions");
 function toggleBtn() {
   btn.classList.toggle("active");
   light.classList.toggle("on");

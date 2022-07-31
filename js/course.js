@@ -18,7 +18,6 @@ button.addEventListener("click", (event) => {
 
 var select = document.getElementById("selectCourse");
 var options = ["English", "Math", "Orgo", "Chem", "Biology"];
-
 for(var i = 0; i < options.length; i++) {
     var opt = options[i];
     var el = document.createElement("option");
