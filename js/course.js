@@ -25,3 +25,5 @@ for(var i = 0; i < options.length; i++) {
     el.value = opt;
     select.appendChild(el);
 }
+
+$('html, body').animate({ scrollTop: 0 }, 'fast');
