@@ -1,6 +1,6 @@
 # Student-Portal
 https://github.com/irakli0608/Student-portal
-created studetn portal that has 6 pages and includes 6 css and 5 javascriot links 
+created student portal that has 6 pages and includes 6 css and 5 javascriot links 
  login and registration page are only accesedable from login and registration
  once you log in to main page you dont have acces to login and registration anymore
  student page has javascript generated grid section which updates dage and new every day which fresh daily news 
